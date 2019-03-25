@@ -27,8 +27,4 @@ def valid_phone_number?(phone)
       false
     end
   end
-#  phone.each do |x|
-
-#    /\A\W+\d{10}\W\z/.match?(x)
-#  end
 end
