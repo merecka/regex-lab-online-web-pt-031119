@@ -20,7 +20,7 @@ end
 def valid_phone_number?(phone)
   new_array = []
   new_array = phone.join(" ").scan(/\d/)
-  
+
 #  phone.each do |x|
 
 #    /\A\W+\d{10}\W\z/.match?(x)
