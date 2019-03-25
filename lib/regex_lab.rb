@@ -19,7 +19,8 @@ end
 
 def valid_phone_number?(phone)
   new_array = []
-  new_array = phone.join(" ").scan(/\d/)
+  new_string = phone.join(" ")
+  new_array.scan(/\d/)
   new_array.each do |x|
     if x.length == 5
       true
