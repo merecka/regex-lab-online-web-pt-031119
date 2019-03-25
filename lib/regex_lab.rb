@@ -22,11 +22,9 @@ def valid_phone_number?(phone)
   new_array = phone.scan(/\d/)
   binding.pry
   new_array.scan(/\d/)
-  new_array.each do |x|
-    if x.length == 5
+  if new_array.length == 10
       true
     else
       false
-    end
   end
 end
