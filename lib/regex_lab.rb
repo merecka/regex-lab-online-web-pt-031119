@@ -20,7 +20,6 @@ end
 def valid_phone_number?(phone)
   new_array = []
   new_array = phone.scan(/\d/)
-  new_array.scan(/\d/)
   if new_array.length == 10
       true
     else
