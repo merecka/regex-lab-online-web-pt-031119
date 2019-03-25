@@ -20,8 +20,7 @@ end
 def valid_phone_number?(phone)
   new_array = []
   binding.pry
-  new_string = phone.join(" ")
-
+  phone.scan(/\d/)
   new_array.scan(/\d/)
   new_array.each do |x|
     if x.length == 5
