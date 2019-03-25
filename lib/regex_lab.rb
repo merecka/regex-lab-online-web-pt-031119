@@ -18,7 +18,9 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
-  phone.join(" ").scan(/\d/)
+  new_array = []
+  new_array = phone.join(" ").scan(/\d/)
+  
 #  phone.each do |x|
 
 #    /\A\W+\d{10}\W\z/.match?(x)
